@@ -20,6 +20,7 @@ def setup_vscode():
             executable,
             "--auth",
             "none",
+            "--allow-http",
             "--disable-telemetry",
             "--port=" + str(port),
         ]
